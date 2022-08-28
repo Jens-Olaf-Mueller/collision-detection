@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+}
+
+canvas {
+    background-color: lemonchiffon;
+    border: 3px double navy;
+}
+
+button {
+    width: 6rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.section {
+    margin: 1rem;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    width: 100%;
+}
+
+.control {
+    display: flex;
+    padding: 0.5rem;
+    font-size: larger;
+    font-weight: bold;
+    /* background-color: #006400; */
+}
+
+.control>label {
+    min-width: 4rem;
+}
+.slider {
+    padding-left: 4.5rem;
+    font-weight: normal;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collision detection</title>
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="section">
+        <h1 id="collisionType">Press 'start' for collision detecting</h1>
+        <canvas id="canvas" width='720' height='480'></canvas>
+    </div>
+
+    <div class="section right">
+        <div class="control">
+            <label for="inpPlayer">Player  </label>
+            <input id="inpPlayer" type="color" value="#006400">
+        </div>
+
+        <div class="control slider">
+            <label for="inpPlayerWidth">Width: </label>
+            <input id="inpPlayerWidth" type="range" min="10" max="100" value="50">
+            <span id="outPlayerWidth"> 50</span>
+        </div>
+
+        <div class="control slider">
+            <label for="inpPlayerHeight">Height: </label>
+            <input id="inpPlayerHeight" type="range" min="10" max="100" value="75">
+            <span id="outPlayerHeight"> 75</span>
+        </div>
+
+         <div class="control slider">
+            <label for="inpPlayerLineWidth">Line: </label>
+            <input id="inpPlayerLineWidth" type="range" min="1" max="10" value="3">
+            <span id="outPlayerLineWidth"> 3</span>
+        </div>     
+
+        <div class="control slider">
+            <label for="inpPlayerSpeed">Speed: </label>
+            <input id="inpPlayerSpeed" type="range" min="1" max="10" value="5">
+            <span id="outPlayerSpeed"> 5</span>
+        </div>
+        <br><h2>Use cursor keys to move player</h2>
+        <br><hr><br>
+
+        <div class="control">
+            <label for="inpEnemy">Enemy </label>
+            <input id="inpEnemy" type="color" value="#ff0000">
+        </div>
+
+        <button onclick="run()">Start</button>
+        
+        
+    </div>
+
+</body>
+<!-- <script src="/script.js"></script> -->
+<script src="/script.class.js"></script>
+</html>
